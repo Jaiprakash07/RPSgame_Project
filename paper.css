@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.great {
+    width: 1500px;
+    height: 700px;
+    background-color: rgb(163, 250, 189);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 55px;
+    padding: 25px;
+}
+
+.great2 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.parent {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.child {
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(93, 122, 177, 0.37);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+svg {
+    font-size: 2.5em;
+}
+
+a {
+    pointer-events: none;
+}
+
+p {
+    pointer-events: none;
+}
+
+.box:hover {
+    background-color: aqua;
+}
+
+.third:hover {
+    background-color: aqua;
+}
+
+.result {
+    font-size: 40px;
+    text-align: center;
+    padding: 55px;
+}
+
+.para1 {
+    font-size: 22px;
+}
+
+.para2 {
+    font-size: 22px;
+}
